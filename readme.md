@@ -1,4 +1,4 @@
-# Product Store
+# SimpleStore
 
 A full-stack product management application built with the MERN stack.
 
