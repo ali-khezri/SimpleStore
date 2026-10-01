@@ -7,6 +7,8 @@ import {
   useColorMode,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { IoMoon } from "react-icons/io5";
+import { LuSun } from "react-icons/lu";
 
 import { PlusSquareIcon } from "@chakra-ui/icons";
 
@@ -29,7 +31,7 @@ function Navbar() {
           fontWeight="bold"
           textTransform="uppercase"
           textAlign="center"
-          bgGradient="linear(to-r, #FF1744, #8B003D, #28003D, #05051F)"
+          bgGradient="linear(to-r, #d8a20e, #FF3B30 )"
           bgClip="text"
         >
           <Link to={"/"}>Simple Store 🛒</Link>
@@ -43,7 +45,7 @@ function Navbar() {
           </Link>
 
           <Button onClick={toggleColorMode}>
-            {color}
+            {colorMode === "light" ? <IoMoon /> : <LuSun size="20" />}
           </Button>
         </HStack>
       </Flex>
