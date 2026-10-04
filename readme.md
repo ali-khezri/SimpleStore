@@ -12,8 +12,6 @@ Try the live application:
 
 ## Features
 
-## Features
-
 - View all products
 - Create new products
 - Update existing products
