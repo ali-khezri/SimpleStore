@@ -15,7 +15,7 @@ function Homepage() {
     <Container maxW="container.xl" py={12}>
       <VStack spacing={8}>
         <Text
-          fontSize={"30"}
+          fontSize={"50"}
           fontWeight="bold"
           textAlign="center"
           bg="#EB6D26"
